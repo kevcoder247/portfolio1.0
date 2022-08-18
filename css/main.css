@@ -109,7 +109,7 @@ a:hover{
 
 #contact{
     text-align: center;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     background-color: var(--hotmag);
     padding: 3rem 0;
@@ -130,6 +130,21 @@ a:hover{
     background-color: var(--hotmag);
 }
 
+footer{
+    text-align: center;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 3rem;
+    font: 3rem;
+}
+
 @media(min-width: 850px){
     body{
         background-color: grey;
@@ -146,6 +161,5 @@ a:hover{
         text-align: left;
         margin-right: auto;
     }
-
 
 }
