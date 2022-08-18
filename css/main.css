@@ -83,7 +83,9 @@ a:hover{
 }
 
 #intro{
-    padding-bottom: 10rem;
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #intro p{
@@ -109,14 +111,25 @@ a:hover{
 
 #contact{
     text-align: center;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
-    background-color: var(--hotmag);
     padding: 3rem 0;
+   
+}
+.contact-text{
+    width: 65%;
+    margin: 0 auto;
+  
 }
 
 #contact p:last-child{
-    margin-top: 3rem;
+    margin-top: 2rem;
+    font-size: 40px;
+}
+
+.section-plum{
+    background-color: var(--plum);
+    padding-bottom: 20px;
 }
 
 .button{
@@ -132,6 +145,7 @@ a:hover{
 
 footer{
     text-align: center;
+    padding: 4rem 0;
 }
 
 footer ul{
