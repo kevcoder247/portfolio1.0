@@ -173,7 +173,7 @@ img{
 
 #contact p:last-child{
     margin-top: 2rem;
-    font-size: 40px;
+    font-size: 50px;
 }
 .contant-h2{
    margin-top: 20px;
@@ -208,7 +208,7 @@ footer ul{
     flex-flow: row wrap;
     justify-content: center;
     gap: 3rem;
-    font: 3rem;
+    font-size: 4rem;
 }
 
 .gradient{
@@ -256,6 +256,9 @@ footer ul{
 
     #projects .reverse ul{
         justify-content: flex-start;
+    }
+    .projects{
+        background-color: var(--dkblue);
     }
 }
 
