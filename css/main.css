@@ -222,6 +222,11 @@ footer ul{
         grid-template-columns: repeat(10, 1fr);
         gap: 1rem;
     }
+    #projects{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
     #projects img{
         grid-column: 1/6;
         grid-row: 1/2;
@@ -252,14 +257,7 @@ footer ul{
     #projects .reverse ul{
         justify-content: flex-start;
     }
-
-
-
 }
-
-
-
-
 
 @media(min-width: 850px){
    
