@@ -259,7 +259,16 @@ footer ul{
     }
     .projects{
         background-color: var(--dkblue);
+       
     }
+    .about-me{
+        height: 900px;
+    }
+
+    /* .about-footer{
+        overflow: hidden;
+        height: 300px;
+    } */
 }
 
 @media(min-width: 850px){
