@@ -134,6 +134,7 @@ a:hover{
     color: var(--white);
     font-size: 1rem;
     line-height: 1.5;
+    /* padding-left: 10px; */
 }
 
 #projects ul{
@@ -216,11 +217,15 @@ footer ul{
     height: 2px;
 }
 
-.about-me-h2{
-    color: pink;
-    font-size: 50px;
-}
+
+
+
+
+/*====================== Media Queries ==================*/
 @media(min-width: 550px){
+   /* body{
+    background-color: red;
+   } */
     article{
         display: grid;
         grid-template-columns: repeat(10, 1fr);
@@ -265,10 +270,18 @@ footer ul{
         background-color: var(--dkblue);
        
     }
+
+     .project1-img{
+        width: 620%;
+    }
    
+
 }
 
 @media(min-width: 850px){
+    /* body{
+        background-color: pink;
+    } */
     nav{
         max-width: 1200px;
         margin: 0 auto;
@@ -288,7 +301,13 @@ footer ul{
     .about-me{
         padding: 70px 0 75px;
     }
+/* 
+    .project-text{
+      
+        text-align: left;
+     } */
 
-    
-
+     .project1-img{
+        width: 500%;
+    }
 }
