@@ -223,9 +223,9 @@ footer ul{
 
 /*====================== Media Queries ==================*/
 @media(min-width: 550px){
-   body{
+   /* body{
     background-color: red;
-   }
+   } */
     article{
         display: grid;
         grid-template-columns: repeat(10, 1fr);
@@ -279,9 +279,9 @@ footer ul{
 }
 
 @media(min-width: 850px){
-    body{
-        background-color: pink;
-    }
+    /* body{
+        background-color: purple;
+    } */
     nav{
         max-width: 1200px;
         margin: 0 auto;
