@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.container{
+  /* border: 2px solid black; */
+  padding: 5%;
+}
+.main-headings{
+  text-align: center;
+}
+.initial-p{
+  line-height: 1.5;
+}
+.tech-skills{
+  line-height: .9;
+}
+.h4{
+  font-size: 20px;
+  line-height: .1;
+}
